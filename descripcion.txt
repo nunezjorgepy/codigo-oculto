@@ -1,0 +1,18 @@
+¿De qué se trata el juego?
+
+El jugador verá una frase en código, donde cada símbolo repesenta una letra (mismo símbolo significa misma letra). Al hacer click en un símbolo o en la casilla superior, se seleccionará la casilla correspondiente a la letra. Al teclear cualquier letra (SOLO LETRAS), la misma se anotará en la casilla. 
+
+La idea del juego es completar la frase.
+
+Comenzará con una palabra ya revelada, donde se podrá ir rellenando los casilleros con los mismos símbolos.
+
+frases = [['Ser o no ser. Esa es la cuestión', [14, 16]]
+]
+
+function writeHTML():
+    - Para cada letra de la frase, necesito crear el DIV. Qué necesito para escribirlo?
+        1. El id del div interno (letra'N'). Esto figura dos veces.
+        2. El símbolo de la letra. Lo logro con symbolAssignment[i][1]
+        
+
+for ()
